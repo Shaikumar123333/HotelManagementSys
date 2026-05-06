@@ -1,4 +1,7 @@
 package org.example.hotelmanagesys.repository;
 
-public interface RoomRepository {
+import org.example.hotelmanagesys.entity.Room;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoomRepository extends JpaRepository<Room, Long> {
 }
