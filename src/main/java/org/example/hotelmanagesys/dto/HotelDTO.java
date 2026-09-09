@@ -1,4 +1,4 @@
-package org.example.hotelmanagesys.dto;
+package org.example.hotelmanagesys.Dto;
 import lombok.*;
 
 @Getter

@@ -1,4 +1,4 @@
-package org.example.hotelmanagesys.dto;
+package org.example.hotelmanagesys.Dto;
 import lombok.*;
 
 import java.time.LocalDate;
@@ -21,4 +21,6 @@ public class BookingDTO {
     private Long userId;
 
     private Long roomId;
+
+
 }
